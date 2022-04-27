@@ -1,12 +1,21 @@
 .bigimagcontainer{
     background-image: url('/images/savmyhome.jpg');
     background-size: cover;
-    background-position:center;
-    height: 45vh;
-    position:fixed;
-    z-index: 0;
+    background-position: 0% 35%;
+    height: 55vh;
+    position:relative;
+    z-index:1;
     
 
+}
+.main-container{
+    position: relative;
+    z-index: 5;
+    ;
+}
+.navul{
+    font-size: 1.5vh;
+    z-index: 6;
 }
 @media screen and (max-width:575px) {
    .main-container{
@@ -35,6 +44,15 @@
        transition-duration:1s ;
 
     height:auto;
+}
+.bigimagcontainer{
+height:25vh;
+    
+
+}
+.navul{
+    font-size: 1.5vh;
+    z-index: 6;
 }
 }
 /* sm screen  */
