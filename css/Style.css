@@ -1,9 +1,24 @@
+.bigimagcontainer{
+    background-image: url('/images/savmyhome.jpg');
+    background-size: cover;
+    background-position:center;
+    height: 45vh;
+    position:fixed;
+    z-index: 0;
+    
+
+}
 @media screen and (max-width:575px) {
    .main-container{
        height: 5vh;
        align-items: center;
        justify-content: center;
        overflow: hidden;
+       position: relative;
+       z-index:2;
+
+       
+
    }
    .borger{
        background-color:white;
